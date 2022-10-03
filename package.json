@@ -1,0 +1,21 @@
+{
+    "name": "zk-trusted-setup",
+    "version": "1.0.0",
+    "description": "",
+    "bin": {
+        "phase1": "bin/phase1.js",
+        "phase2": "bin/phase2.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Ryuu",
+    "license": "MIT",
+    "dependencies": {
+        "ffjavascript": "^0.2.56",
+        "libsodium-wrappers": "^0.7.10",
+        "snarkjs": "^0.5.0",
+        "yargs": "^17.5.1"
+    }
+}
